@@ -15,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body>
-        <div className="relative w-full justify-center items-center"><Navbar /></div>
+        <div className="relative w-full justify-center items-center bg-black"><Navbar /></div>
         
         {children}
       </body>
